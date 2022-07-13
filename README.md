@@ -33,12 +33,14 @@ function finished_course(course_id) {
     });
 }
 
-for (var i = 0; i < 200; i++) {
-    finished_courses(i);
+for (var i = 0; i < 240; i++) {
+    finished_course(i);
 }
 ```
 
 ### 1.2 考试
+
+进入考试页面，执行函数
 
 ```javascript
 function solve() {
